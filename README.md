@@ -14,7 +14,7 @@ identidade, roteiro e produção audiovisual do projeto.
 | Design system | ✅ Construído — `brand/` |
 | Pesquisa sobre a empresa | ✅ Concluída — `docs/pesquisa-grupo-cesari.md` |
 | Análise do roteiro | ✅ Concluída — `docs/analise-roteiro.md` |
-| Teaser 30 s | 📋 Plano aprovado, execução não iniciada — `docs/plano-teaser-30s.md` |
+| Teaser 30 s | 🎬 **Variante B escolhida.** Decupagem cravada aguardando aprovação — `docs/storyboard-teaser-b.md` |
 | Filme completo (3'30") | ⏸ Aguarda acervo histórico |
 | Peças da festa | ⏸ Aguarda data do evento e ano de fundação |
 
@@ -31,8 +31,11 @@ identidade, roteiro e produção audiovisual do projeto.
   roteiro e o que a empresa efetivamente comunica. Contém o conflito de datas e o
   checklist de pendências.
 - **[`plano-teaser-30s.md`](docs/plano-teaser-30s.md)** — plano de produção do teaser:
-  direção de arte, duas variantes de estrutura com decupagem segundo a segundo, pipeline
+  direção de arte ancorada na operação real, as duas variantes apresentadas, pipeline
   técnico e pontos de aprovação.
+- **[`storyboard-teaser-b.md`](docs/storyboard-teaser-b.md)** — 🎬 decupagem cravada da
+  **Variante B "Só o galgo"**, escolhida: 30 s quadro a quadro, os cinco ambientes, o
+  desenho de som e os prompts de geração.
 
 ### `brand/`
 
@@ -69,8 +72,8 @@ Detalhes em [`docs/analise-roteiro.md`](docs/analise-roteiro.md).
 ## Próximos passos
 
 1. Resolver o ano de fundação
-2. Aprovar a variante do teaser (A ou B) e o roteiro cravado
-3. Gerar still frames e amostras de voz para aprovação
+2. Aprovar a decupagem da Variante B (`docs/storyboard-teaser-b.md`)
+3. Gerar os 5 still frames e o teste de travessia do galgo para aprovação
 4. Montar o teaser
 5. Em paralelo e com urgência: iniciar o garimpo do acervo histórico 1952–1994 e a
    gravação de depoimentos de colaboradores antigos

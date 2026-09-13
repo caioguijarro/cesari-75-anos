@@ -1,7 +1,9 @@
 # Plano de produção — Teaser 30 s
 
 **Peça:** teaser de 30 segundos, 16:9, para abrir a campanha dos 75 anos
-**Status:** plano aprovado para execução — nada gerado ainda
+**Status:** ✅ **Variante B escolhida (13/09/2026).** Decupagem cravada em
+[`storyboard-teaser-b.md`](storyboard-teaser-b.md) — aguardando aprovação da Etapa A.
+Nada gerado ainda.
 **Base:** `pesquisa-grupo-cesari.md`, `analise-roteiro.md`, `brand/Design System 75 Anos Cesari.dc.html`
 
 ---
@@ -67,7 +69,7 @@ Do design system, aplicado a vídeo:
 
 ### Áudio
 
-- Locução masculina idosa, em português, **provisória** — o projeto final usará outra abordagem
+- ~~Locução masculina idosa, em português, provisória~~ — **a Variante B não tem locução.** A escolha dispensa TTS e elimina o risco de voz sintética caricata
 - Trilha: cordas graves + pulso baixo, crescendo. Sem percussão épica de trailer
 - **Design de som é metade da peça:** vento de cais, cabo de aço, grab fechando, trem, ar comprimido de freio. Som real de operação vale mais que trilha bonita
 - Silêncio de verdade nos 3 primeiros segundos e antes da virada
@@ -82,9 +84,11 @@ A vinheta de abertura **já está especificada no design system** e é seguida �
 > velocidade do galgo e revela o '75'. Corte seco, sem zoom. Assinatura final de 2 s com
 > a marca sobre creme."*
 
-Duas variantes para decisão. Recomendo a **A**.
+Duas variantes foram levadas ao cliente. **Escolhida: a Variante B.**
+A decupagem cravada está em [`storyboard-teaser-b.md`](storyboard-teaser-b.md); o que
+segue abaixo é o registro das duas opções como foram apresentadas.
 
-### Variante A — "O que não muda" (recomendada)
+### Variante A — "O que não muda" *(não escolhida)*
 
 Narrativa condensada, ~55 palavras. Usa o eixo do roteiro sem entregar o filme.
 
@@ -101,7 +105,7 @@ Narrativa condensada, ~55 palavras. Usa o eixo do roteiro sem entregar o filme.
 
 **Contagem:** 8 planos, ~55 palavras, cabe em 30 s com respiro real.
 
-### Variante B — "Só o galgo"
+### Variante B — "Só o galgo" ✅ *(escolhida)*
 
 Teaser puro. 12 palavras. Mais ousado, mais memorável, menos informativo.
 
@@ -142,7 +146,6 @@ Stack: **Higgsfield** (MCP já conectado nesta sessão) para imagem, vídeo e vo
 | **`ffmpeg` não está instalado neste ambiente** (só Python) | Instalar no início da execução; se falhar, montar via biblioteca Python ou entregar os clipes + EDL para montagem local |
 | Container é efêmero — é reciclado por inatividade | Tudo versionado e enviado ao repositório ao fim de cada etapa |
 | Inconsistência visual entre clipes | Prompt-base único + aprovação por still frame |
-| Voz idosa em TTS sai caricata ou instável | 3 amostras antes de fechar; plano B é a Variante B, sem locução |
 | Créditos Higgsfield | Conferir saldo antes da etapa 3 |
 | Logo só existe em JPG/PNG | Pedir vetor ao marketing; o design system já registra essa pendência |
 
@@ -152,8 +155,8 @@ Stack: **Higgsfield** (MCP já conectado nesta sessão) para imagem, vídeo e vo
 
 | Etapa | Entrega | Aprovação |
 |---|---|---|
-| **A** | Variante escolhida + roteiro cravado segundo a segundo | ✅ obrigatória |
-| **B** | 8 still frames 16:9 + 3 amostras de voz | ✅ obrigatória |
+| **A** | Variante escolhida + roteiro cravado segundo a segundo | ⏳ **entregue, aguardando** |
+| **B** | 5 still frames 16:9 + teste de travessia do galgo | ✅ obrigatória |
 | **C** | Clipes animados + cartelas tipográficas | — |
 | **D** | Teaser 30 s montado com áudio | ✅ final |
 
