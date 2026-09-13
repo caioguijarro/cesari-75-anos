@@ -14,7 +14,7 @@ identidade, roteiro e produção audiovisual do projeto.
 | Design system | ✅ Construído — `brand/` |
 | Pesquisa sobre a empresa | ✅ Concluída — `docs/pesquisa-grupo-cesari.md` |
 | Análise do roteiro | ✅ Concluída — `docs/analise-roteiro.md` |
-| Teaser 30 s | 🎬 **Variante B escolhida.** Decupagem cravada aguardando aprovação — `docs/storyboard-teaser-b.md` |
+| Teaser 30 s | 🎬 Variante B · decupagem aprovada · **5 stills e teste de travessia prontos** — `docs/etapa-b-resultados.md` |
 | Filme completo (3'30") | ⏸ Aguarda acervo histórico |
 | Peças da festa | ⏸ Aguarda data do evento e ano de fundação |
 
@@ -36,6 +36,14 @@ identidade, roteiro e produção audiovisual do projeto.
 - **[`storyboard-teaser-b.md`](docs/storyboard-teaser-b.md)** — 🎬 decupagem cravada da
   **Variante B "Só o galgo"**, escolhida: 30 s quadro a quadro, os cinco ambientes, o
   desenho de som e os prompts de geração.
+- **[`etapa-b-resultados.md`](docs/etapa-b-resultados.md)** — resultados dos still
+  frames e do teste de travessia, incluindo a mecânica que falhou e a correção adotada.
+
+### `teaser/`
+
+- **`stills/`** — os cinco ambientes aprovados, 2048 × 1152.
+- **`galgo/`** — testes de travessia: GIFs em velocidade real e tiras de contatos.
+- **`build_galgo*.py`** — composição da travessia a partir do PNG da marca, sem IA.
 
 ### `brand/`
 
@@ -73,7 +81,7 @@ Detalhes em [`docs/analise-roteiro.md`](docs/analise-roteiro.md).
 
 1. Resolver o ano de fundação
 2. Aprovar a decupagem da Variante B (`docs/storyboard-teaser-b.md`)
-3. Gerar os 5 still frames e o teste de travessia do galgo para aprovação
-4. Montar o teaser
+3. ~~Gerar os 5 still frames e o teste de travessia~~ ✅ feito
+4. Gerar os 5 clipes de vídeo, a vinheta e as cartelas; instalar `ffmpeg` e montar
 5. Em paralelo e com urgência: iniciar o garimpo do acervo histórico 1952–1994 e a
    gravação de depoimentos de colaboradores antigos

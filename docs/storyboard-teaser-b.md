@@ -1,6 +1,13 @@
 # Teaser 30 s — Variante B "Só o galgo"
 
-**Decupagem cravada · aguardando aprovação (Etapa A)**
+**Decupagem cravada · Etapa A aprovada · mecânica da travessia corrigida na Etapa B**
+
+> ⚠️ **Correção de 13/09/2026.** O teste de travessia (ver
+> [`etapa-b-resultados.md`](etapa-b-resultados.md)) derrubou a mecânica descrita no
+> item 2 abaixo. O galgo **não** pode ser a borda do corte preenchida com imagem — a
+> forma se dissolve. A mecânica vigente é a **variante E**: galgo em azul chapado com
+> filete de contorno, na ponta do corte, e a borda do corte selada por um filete creme
+> vertical. O conceito narrativo permanece inalterado.
 
 Formato 1920 × 1080 · 16:9 · 30,0 s exatos · 24 fps
 Sem locução · 12 palavras em tela · áudio inteiramente de design de som
@@ -23,9 +30,15 @@ nomeia o que o espectador já viu acontecer por 20 segundos. A forma carrega a m
 
 ## 2. O mecanismo — o galgo é o corte
 
-O galgo **não é um personagem animado correndo sobre a imagem.** Ele é a **borda do
-corte**: a silhueta que atravessa a tela da esquerda para a direita e, ao passar, revela
-o ambiente seguinte. Você vê a forma do galgo como fronteira entre duas imagens.
+O galgo **não é um personagem animado correndo sobre a imagem.** Ele é a **ponta do
+corte**: uma forma em **azul Cesari chapado `#1C3C7D`**, com filete creme de contorno,
+que atravessa a tela da esquerda para a direita puxando atrás de si a troca de imagem.
+A borda do corte é selada por um **filete creme vertical** — o filete padrão do design
+system — de modo que a linha da transição seja um elemento deliberado da marca.
+
+> A versão anterior deste item dizia que a silhueta do galgo seria *preenchida* com o
+> ambiente seguinte. O teste provou que não funciona: com proporção de 4,5 : 1 e pernas
+> finas, o galgo só é reconhecível em chapado. Preenchido com fotografia, vira mancha.
 
 Três motivos para fazer assim:
 
