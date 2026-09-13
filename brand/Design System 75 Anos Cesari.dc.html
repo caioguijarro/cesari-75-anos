@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+<style>
+  body { margin: 0; background: #FDFBEF; color: #1A1D22; -webkit-font-smoothing: antialiased; }
+  a { color: #1C3C7D; text-decoration: none; }
+  a:hover { color: #B4923F; }
+  ::selection { background: #1C3C7D; color: #FDFBEF; }
+</style>
+</helmet>
+
+<div style="font-family: Archivo, sans-serif; background: #FDFBEF; min-height: 100vh">
+
+  <div style="position: sticky; top: 0; z-index: 20; background: rgba(253,251,239,0.94); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(28,60,125,0.16)">
+    <div style="max-width: 1180px; margin: 0 auto; padding: 14px 28px; display: flex; align-items: center; gap: 28px; flex-wrap: wrap">
+      <div style="font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 700; color: #1C3C7D; white-space: nowrap">Cesari 75 · Design System</div>
+      <div style="display: flex; gap: 20px; flex-wrap: wrap; font-size: 12.5px; letter-spacing: 0.04em; color: #4A5260">
+        <a href="#fundamentos">Fundamentos</a>
+        <a href="#marca">Marca</a>
+        <a href="#cores">Cores</a>
+        <a href="#tipografia">Tipografia</a>
+        <a href="#elementos">Elementos</a>
+        <a href="#aplicacoes">Aplicações</a>
+        <a href="#checklist">Checklist</a>
+      </div>
+    </div>
+  </div>
+
+  <div style="max-width: 1180px; margin: 0 auto; padding: 0 28px 140px">
+
+    <section style="padding: 88px 0 72px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 48px">
+      <div style="display: grid; gap: 22px; max-width: 720px">
+        <div style="font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: #59616E; font-weight: 600">Grupo Cesari · 1951 — 2026</div>
+        <h1 style="font-family: 'Instrument Serif', serif; font-weight: 400; font-size: clamp(44px, 7vw, 84px); line-height: 0.98; margin: 0; color: #1C3C7D; text-wrap: pretty">Sistema de design<br />dos 75 anos</h1>
+        <p style="margin: 0; font-size: clamp(16px, 1.6vw, 19px); line-height: 1.6; color: #3B4350; max-width: 56ch; text-wrap: pretty">Guia único para todos os materiais da campanha e da festa comemorativa: marca, cores, tipografia, elementos gráficos e aplicações. Institucional e sóbrio, com o galgo como protagonista e o prata e o ouro como acentos nobres.</p>
+      </div>
+      <div style="border: 1px solid rgba(28,60,125,0.2); background: #FDFBEF; padding: clamp(28px, 5vw, 64px); display: grid; place-items: center">
+        <img src="assets/marca-75-tagline.png" alt="Marca comemorativa Cesari 75 anos" style="width: 100%; max-width: 680px; height: auto; display: block" />
+      </div>
+    </section>
+
+    <section id="fundamentos" style="padding: 64px 0; border-top: 1px solid rgba(28,60,125,0.16)">
+      <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 36px">
+        <span style="font-family: 'Instrument Serif', serif; font-size: 28px; color: #B4923F">01</span>
+        <h2 style="margin: 0; font-size: clamp(26px, 3.4vw, 38px); font-weight: 600; letter-spacing: -0.01em; color: #1C3C7D">Fundamentos</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px">
+        <div style="border-top: 2px solid #1C3C7D; padding-top: 18px; display: grid; gap: 10px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600">Assinatura</div>
+          <div style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 26px; color: #1C3C7D; line-height: 1.25">História, valores e legado.</div>
+          <p style="margin: 0; font-size: 14.5px; line-height: 1.6; color: #4A5260">Frase oficial da comemoração. Sempre com ponto final, sempre em itálico, nunca traduzida ou reescrita.</p>
+        </div>
+        <div style="border-top: 2px solid #1C3C7D; padding-top: 18px; display: grid; gap: 10px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600">Tom de voz</div>
+          <div style="font-size: 19px; font-weight: 600; color: #1A1D22; line-height: 1.35">Sóbrio, direto, com orgulho contido.</div>
+          <p style="margin: 0; font-size: 14.5px; line-height: 1.6; color: #4A5260">Frases curtas na voz ativa. Números e datas em vez de adjetivos. Reconhece as pessoas antes da empresa.</p>
+        </div>
+        <div style="border-top: 2px solid #1C3C7D; padding-top: 18px; display: grid; gap: 10px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600">Evitar</div>
+          <div style="font-size: 19px; font-weight: 600; color: #1A1D22; line-height: 1.35">Festa genérica.</div>
+          <p style="margin: 0; font-size: 14.5px; line-height: 1.6; color: #4A5260">Sem confete, balão, brinde estilizado, gradiente arco-íris ou emoji. A celebração aparece pela tipografia e pelo prata, não por ornamento.</p>
+        </div>
+      </div>
+      <div style="margin-top: 40px; background: #1C3C7D; color: #FDFBEF; padding: clamp(28px, 4vw, 48px); display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 32px">
+        <div style="display: grid; gap: 8px">
+          <div style="font-family: 'Instrument Serif', serif; font-size: 46px; line-height: 1; color: #FDFBEF">75</div>
+          <div style="font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(253,251,239,0.72)">anos de operação</div>
+        </div>
+        <div style="display: grid; gap: 8px">
+          <div style="font-family: 'Instrument Serif', serif; font-size: 46px; line-height: 1; color: #FDFBEF">1951</div>
+          <div style="font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(253,251,239,0.72)">ano de fundação</div>
+        </div>
+        <div style="display: grid; gap: 8px; border-left: 1px solid rgba(253,251,239,0.26); padding-left: 24px">
+          <div style="font-size: 14.5px; line-height: 1.6; color: rgba(253,251,239,0.86)">Os demais marcos — empresas do grupo, bases, frota e número de colaboradores — entram aqui quando você enviar os dados. Este bloco é o padrão de números da campanha.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="marca" style="padding: 64px 0; border-top: 1px solid rgba(28,60,125,0.16)">
+      <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 36px">
+        <span style="font-family: 'Instrument Serif', serif; font-size: 28px; color: #B4923F">02</span>
+        <h2 style="margin: 0; font-size: clamp(26px, 3.4vw, 38px); font-weight: 600; letter-spacing: -0.01em; color: #1C3C7D">Marca comemorativa</h2>
+      </div>
+      <p style="margin: 0 0 32px; font-size: 15.5px; line-height: 1.65; color: #4A5260; max-width: 62ch">A marca do 75 é uma assinatura fechada: galgo, logotipo, faixa e selo prata formam um bloco único. Nada dentro dele se move, se separa ou se redimensiona isoladamente.</p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+        <div style="border: 1px solid rgba(28,60,125,0.2); display: grid">
+          <div style="background: #FDFBEF; padding: 40px 28px; display: grid; place-items: center; min-height: 190px">
+            <img src="assets/marca-75.png" alt="Marca principal" style="width: 100%; max-width: 340px; height: auto" />
+          </div>
+          <div style="border-top: 1px solid rgba(28,60,125,0.2); padding: 14px 18px; display: flex; justify-content: space-between; gap: 12px; font-size: 12.5px; color: #4A5260">
+            <span style="font-weight: 600; color: #1A1D22">Principal</span><span>fundo creme</span>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(28,60,125,0.2); display: grid">
+          <div style="background: #1C3C7D; padding: 40px 28px; display: grid; place-items: center; min-height: 190px">
+            <div style="background: #FDFBEF; padding: 22px 26px; width: 100%; max-width: 300px; display: grid; place-items: center">
+              <img src="assets/marca-75.png" alt="Marca em cartela" style="width: 100%; height: auto" />
+            </div>
+          </div>
+          <div style="border-top: 1px solid rgba(28,60,125,0.2); padding: 14px 18px; display: flex; justify-content: space-between; gap: 12px; font-size: 12.5px; color: #4A5260">
+            <span style="font-weight: 600; color: #1A1D22">Cartela creme</span><span>sobre azul</span>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(28,60,125,0.2); display: grid">
+          <div style="background: #FDFBEF; padding: 32px 28px; display: grid; place-items: center; min-height: 190px; position: relative">
+            <div style="position: relative; padding: 18%; outline: 1px dashed rgba(180,146,63,0.8); width: 100%; max-width: 300px; box-sizing: border-box">
+              <img src="assets/marca-75.png" alt="Área de respiro" style="width: 100%; height: auto; display: block" />
+              <div style="position: absolute; top: 6px; left: 8px; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #B4923F; font-weight: 700">x</div>
+            </div>
+          </div>
+          <div style="border-top: 1px solid rgba(28,60,125,0.2); padding: 14px 18px; display: flex; justify-content: space-between; gap: 12px; font-size: 12.5px; color: #4A5260">
+            <span style="font-weight: 600; color: #1A1D22">Área de respiro</span><span>x = altura do “75”</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 28px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px">
+        <div style="border-top: 2px solid #1C3C7D; padding-top: 16px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; margin-bottom: 8px">Tamanho mínimo</div>
+          <div style="font-size: 15px; line-height: 1.7; color: #3B4350">Impresso: 45 mm de largura.<br />Digital: 220 px de largura.<br />Bordado / adesivo: 60 mm.</div>
+        </div>
+        <div style="border-top: 2px solid #1C3C7D; padding-top: 16px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; margin-bottom: 8px">Assinatura com a tagline</div>
+          <div style="font-size: 15px; line-height: 1.7; color: #3B4350">Use a versão com “História, valores e legado.” em capas, convites e backdrop. Em peças pequenas, apenas a marca.</div>
+        </div>
+        <div style="border-top: 2px solid #1C3C7D; padding-top: 16px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; margin-bottom: 8px">Arquivos</div>
+          <div style="font-size: 15px; line-height: 1.7; color: #3B4350">Peça o vetor (.ai/.svg) ao marketing. Nada de recorte de JPG em peça final — as versões aqui são referência de layout.</div>
+        </div>
+      </div>
+
+      <sc-if value="{{ mostrarUsosIncorretos }}" hint-placeholder-val="{{ true }}">
+        <div style="margin-top: 44px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; margin-bottom: 18px">Usos incorretos</div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 20px">
+            <div style="display: grid; gap: 10px">
+              <div style="border: 1px solid rgba(28,60,125,0.2); background: #FDFBEF; aspect-ratio: 4 / 3; display: grid; place-items: center; padding: 18px; overflow: hidden">
+                <img src="assets/marca-75.png" alt="" style="width: 130%; max-width: none; height: auto; transform: scaleX(0.62)" />
+              </div>
+              <div style="font-size: 13px; color: #4A5260"><strong style="color: #1A1D22">Não</strong> distorcer ou condensar.</div>
+            </div>
+            <div style="display: grid; gap: 10px">
+              <div style="border: 1px solid rgba(28,60,125,0.2); background: #7E8FB4; aspect-ratio: 4 / 3; display: grid; place-items: center; padding: 18px">
+                <img src="assets/marca-75.png" alt="" style="width: 100%; height: auto; opacity: 0.75" />
+              </div>
+              <div style="font-size: 13px; color: #4A5260"><strong style="color: #1A1D22">Não</strong> aplicar sobre azul claro ou foto sem contraste.</div>
+            </div>
+            <div style="display: grid; gap: 10px">
+              <div style="border: 1px solid rgba(28,60,125,0.2); background: #FDFBEF; aspect-ratio: 4 / 3; display: grid; place-items: center; padding: 18px">
+                <div style="display: flex; align-items: center; gap: 10px; width: 100%">
+                  <img src="assets/selo-75.png" alt="" style="width: 46%; height: auto" />
+                  <div style="font-family: 'Instrument Serif', serif; font-size: 22px; color: #1C3C7D; line-height: 1">Cesari</div>
+                </div>
+              </div>
+              <div style="font-size: 13px; color: #4A5260"><strong style="color: #1A1D22">Não</strong> separar o selo do logotipo nem remontar o bloco.</div>
+            </div>
+            <div style="display: grid; gap: 10px">
+              <div style="border: 1px solid rgba(28,60,125,0.2); background: #FDFBEF; aspect-ratio: 4 / 3; display: grid; place-items: center; padding: 18px">
+                <img src="assets/marca-75.png" alt="" style="width: 100%; height: auto; filter: hue-rotate(105deg) saturate(1.5)" />
+              </div>
+              <div style="font-size: 13px; color: #4A5260"><strong style="color: #1A1D22">Não</strong> recolorir. Azul, creme e prata apenas.</div>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+    </section>
+
+    <section id="cores" style="padding: 64px 0; border-top: 1px solid rgba(28,60,125,0.16)">
+      <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 36px">
+        <span style="font-family: 'Instrument Serif', serif; font-size: 28px; color: #B4923F">03</span>
+        <h2 style="margin: 0; font-size: clamp(26px, 3.4vw, 38px); font-weight: 600; letter-spacing: -0.01em; color: #1C3C7D">Cores</h2>
+      </div>
+      <p style="margin: 0 0 32px; font-size: 15.5px; line-height: 1.65; color: #4A5260; max-width: 62ch">Azul Cesari e creme arquivo sustentam tudo. Prata e ouro são acentos: no máximo um deles por peça, e nunca em áreas grandes.</p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 20px">
+        <div style="display: grid; gap: 12px">
+          <div style="background: #1C3C7D; aspect-ratio: 1 / 1; border: 1px solid rgba(28,60,125,0.2)"></div>
+          <div style="display: grid; gap: 3px">
+            <div style="font-size: 14.5px; font-weight: 600; color: #1A1D22">Azul Cesari</div>
+            <div style="font-size: 12.5px; color: #4A5260">#1C3C7D · PANTONE 2757 C</div>
+            <div style="font-size: 12.5px; color: #59616E">CMYK 100 · 82 · 20 · 10</div>
+            <sc-if value="{{ mostrarTokens }}" hint-placeholder-val="{{ true }}"><div style="font-size: 11.5px; color: #B4923F; font-weight: 600; letter-spacing: 0.04em">--cesari-azul</div></sc-if>
+          </div>
+        </div>
+        <div style="display: grid; gap: 12px">
+          <div style="background: #112A57; aspect-ratio: 1 / 1; border: 1px solid rgba(28,60,125,0.2)"></div>
+          <div style="display: grid; gap: 3px">
+            <div style="font-size: 14.5px; font-weight: 600; color: #1A1D22">Azul profundo</div>
+            <div style="font-size: 12.5px; color: #4A5260">#112A57</div>
+            <div style="font-size: 12.5px; color: #59616E">Fundos cheios, backdrop, vídeo</div>
+            <sc-if value="{{ mostrarTokens }}" hint-placeholder-val="{{ true }}"><div style="font-size: 11.5px; color: #B4923F; font-weight: 600; letter-spacing: 0.04em">--cesari-azul-profundo</div></sc-if>
+          </div>
+        </div>
+        <div style="display: grid; gap: 12px">
+          <div style="background: #FDFBEF; aspect-ratio: 1 / 1; border: 1px solid rgba(28,60,125,0.2)"></div>
+          <div style="display: grid; gap: 3px">
+            <div style="font-size: 14.5px; font-weight: 600; color: #1A1D22">Creme arquivo</div>
+            <div style="font-size: 12.5px; color: #4A5260">#FDFBEF</div>
+            <div style="font-size: 12.5px; color: #59616E">Fundo padrão de toda a campanha</div>
+            <sc-if value="{{ mostrarTokens }}" hint-placeholder-val="{{ true }}"><div style="font-size: 11.5px; color: #B4923F; font-weight: 600; letter-spacing: 0.04em">--cesari-creme</div></sc-if>
+          </div>
+        </div>
+        <div style="display: grid; gap: 12px">
+          <div style="background: #F2ECD8; aspect-ratio: 1 / 1; border: 1px solid rgba(28,60,125,0.2)"></div>
+          <div style="display: grid; gap: 3px">
+            <div style="font-size: 14.5px; font-weight: 600; color: #1A1D22">Creme sombra</div>
+            <div style="font-size: 12.5px; color: #4A5260">#F2ECD8</div>
+            <div style="font-size: 12.5px; color: #59616E">Blocos e tabelas sobre creme</div>
+            <sc-if value="{{ mostrarTokens }}" hint-placeholder-val="{{ true }}"><div style="font-size: 11.5px; color: #B4923F; font-weight: 600; letter-spacing: 0.04em">--cesari-creme-sombra</div></sc-if>
+          </div>
+        </div>
+        <div style="display: grid; gap: 12px">
+          <div style="background: linear-gradient(135deg, #E9E9EA 0%, #CFCFD0 38%, #9A9A9C 62%, #D7D7D8 100%); aspect-ratio: 1 / 1; border: 1px solid rgba(28,60,125,0.2)"></div>
+          <div style="display: grid; gap: 3px">
+            <div style="font-size: 14.5px; font-weight: 600; color: #1A1D22">Prata 75</div>
+            <div style="font-size: 12.5px; color: #4A5260">#CFCFD0 → #9A9A9C</div>
+            <div style="font-size: 12.5px; color: #59616E">Só no selo e em filetes. Chapado: #ABABAB</div>
+            <sc-if value="{{ mostrarTokens }}" hint-placeholder-val="{{ true }}"><div style="font-size: 11.5px; color: #B4923F; font-weight: 600; letter-spacing: 0.04em">--cesari-prata</div></sc-if>
+          </div>
+        </div>
+        <div style="display: grid; gap: 12px">
+          <div style="background: #B4923F; aspect-ratio: 1 / 1; border: 1px solid rgba(28,60,125,0.2)"></div>
+          <div style="display: grid; gap: 3px">
+            <div style="font-size: 14.5px; font-weight: 600; color: #1A1D22">Ouro cerimônia</div>
+            <div style="font-size: 12.5px; color: #4A5260">#B4923F</div>
+            <div style="font-size: 12.5px; color: #59616E">Convite, credencial, placa de homenagem</div>
+            <sc-if value="{{ mostrarTokens }}" hint-placeholder-val="{{ true }}"><div style="font-size: 11.5px; color: #B4923F; font-weight: 600; letter-spacing: 0.04em">--cesari-ouro</div></sc-if>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 36px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px">
+        <div style="border: 1px solid rgba(28,60,125,0.2); padding: 22px; display: grid; gap: 14px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600">Proporção por peça</div>
+          <div style="display: flex; height: 34px; width: 100%; border: 1px solid rgba(28,60,125,0.2)">
+            <div style="flex: 70; background: #FDFBEF"></div>
+            <div style="flex: 24; background: #1C3C7D"></div>
+            <div style="flex: 4; background: #ABABAB"></div>
+            <div style="flex: 2; background: #B4923F"></div>
+          </div>
+          <div style="font-size: 13.5px; line-height: 1.6; color: #4A5260">70% creme · 24% azul · 4% prata · 2% ouro. Inverta creme e azul apenas em capas e backdrop.</div>
+        </div>
+        <div style="border: 1px solid rgba(28,60,125,0.2); padding: 22px; display: grid; gap: 10px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600">Contraste de texto</div>
+          <div style="font-size: 13.5px; line-height: 1.7; color: #3B4350">Azul #1C3C7D sobre creme: 8,4:1 — livre.<br />Creme sobre azul: 8,4:1 — livre.<br />Ouro #B4923F sobre creme: 2,9:1 — só em título grande ou filete, nunca em texto corrido.<br />Prata nunca é cor de texto.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tipografia" style="padding: 64px 0; border-top: 1px solid rgba(28,60,125,0.16)">
+      <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 36px">
+        <span style="font-family: 'Instrument Serif', serif; font-size: 28px; color: #B4923F">04</span>
+        <h2 style="margin: 0; font-size: clamp(26px, 3.4vw, 38px); font-weight: 600; letter-spacing: -0.01em; color: #1C3C7D">Tipografia</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; margin-bottom: 40px">
+        <div style="border-top: 2px solid #1C3C7D; padding-top: 18px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; margin-bottom: 12px">Institucional · Archivo</div>
+          <div style="font-size: 44px; font-weight: 600; color: #1A1D22; line-height: 1.05; margin-bottom: 10px">Aa Bb Cc 0123</div>
+          <div style="font-size: 14.5px; line-height: 1.65; color: #4A5260">Títulos, textos, legendas, sinalização e interface. Pesos 400, 500, 600 e 700. Itálico só para a assinatura e citações.</div>
+        </div>
+        <div style="border-top: 2px solid #1C3C7D; padding-top: 18px">
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; margin-bottom: 12px">Cerimonial · Instrument Serif</div>
+          <div style="font-family: 'Instrument Serif', serif; font-size: 52px; color: #1A1D22; line-height: 1; margin-bottom: 10px">Aa Bb Cc 0123</div>
+          <div style="font-size: 14.5px; line-height: 1.65; color: #4A5260">Números do 75, anos, datas, convite e homenagens. Um uso por peça, sempre em tamanho grande. Nunca em texto corrido.</div>
+        </div>
+      </div>
+
+      <div style="border: 1px solid rgba(28,60,125,0.2)">
+        <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 20px; padding: 22px 24px; border-bottom: 1px solid rgba(28,60,125,0.14); align-items: baseline">
+          <div style="font-size: 12px; color: #59616E; letter-spacing: 0.08em; text-transform: uppercase">Display · 72/0.98</div>
+          <div style="font-family: 'Instrument Serif', serif; font-size: 56px; line-height: 1; color: #1C3C7D">75 anos</div>
+        </div>
+        <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 20px; padding: 22px 24px; border-bottom: 1px solid rgba(28,60,125,0.14); align-items: baseline">
+          <div style="font-size: 12px; color: #59616E; letter-spacing: 0.08em; text-transform: uppercase">H1 · 40/1.1 · 600</div>
+          <div style="font-size: 36px; font-weight: 600; color: #1A1D22; line-height: 1.1">História, valores e legado</div>
+        </div>
+        <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 20px; padding: 22px 24px; border-bottom: 1px solid rgba(28,60,125,0.14); align-items: baseline">
+          <div style="font-size: 12px; color: #59616E; letter-spacing: 0.08em; text-transform: uppercase">H2 · 26/1.2 · 600</div>
+          <div style="font-size: 24px; font-weight: 600; color: #1A1D22; line-height: 1.2">Sete décadas em movimento</div>
+        </div>
+        <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 20px; padding: 22px 24px; border-bottom: 1px solid rgba(28,60,125,0.14); align-items: baseline">
+          <div style="font-size: 12px; color: #59616E; letter-spacing: 0.08em; text-transform: uppercase">Corpo · 17/1.6 · 400</div>
+          <div style="font-size: 17px; line-height: 1.6; color: #3B4350; max-width: 54ch">Texto padrão de convites, comunicados e apresentações. Parágrafos curtos, alinhados à esquerda, nunca justificados.</div>
+        </div>
+        <div style="display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 20px; padding: 22px 24px; align-items: baseline">
+          <div style="font-size: 12px; color: #59616E; letter-spacing: 0.08em; text-transform: uppercase">Etiqueta · 12/0.16em · 600</div>
+          <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #1C3C7D">Grupo Cesari · Multimodal</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="elementos" style="padding: 64px 0; border-top: 1px solid rgba(28,60,125,0.16)">
+      <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 36px">
+        <span style="font-family: 'Instrument Serif', serif; font-size: 28px; color: #B4923F">05</span>
+        <h2 style="margin: 0; font-size: clamp(26px, 3.4vw, 38px); font-weight: 600; letter-spacing: -0.01em; color: #1C3C7D">Elementos gráficos</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px">
+        <div style="border: 1px solid rgba(28,60,125,0.2); display: grid">
+          <div style="background: #FDFBEF; padding: 30px; min-height: 180px; display: grid; place-items: center; overflow: hidden">
+            <img src="assets/galgo.png" alt="Galgo" style="width: 100%; max-width: 300px; height: auto" />
+          </div>
+          <div style="border-top: 1px solid rgba(28,60,125,0.2); padding: 18px; display: grid; gap: 8px">
+            <div style="font-size: 16px; font-weight: 600; color: #1A1D22">O galgo</div>
+            <div style="font-size: 13.5px; line-height: 1.6; color: #4A5260">Protagonista do sistema. Pode sair da marca e virar elemento isolado em azul chapado, sempre correndo para a direita, cortado pela margem no máximo até o quadril. Nunca espelhado, nunca em prata.</div>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(28,60,125,0.2); display: grid">
+          <div style="background: #FDFBEF; padding: 30px; min-height: 180px; display: grid; place-items: center">
+            <div style="width: 100%; display: grid; gap: 14px">
+              <div style="height: 10px; background: #1C3C7D; border-radius: 999px; width: 100%"></div>
+              <div style="height: 6px; background: #ABABAB; border-radius: 999px; width: 72%"></div>
+              <div style="height: 3px; background: #B4923F; border-radius: 999px; width: 44%"></div>
+            </div>
+          </div>
+          <div style="border-top: 1px solid rgba(28,60,125,0.2); padding: 18px; display: grid; gap: 8px">
+            <div style="font-size: 16px; font-weight: 600; color: #1A1D22">A faixa</div>
+            <div style="font-size: 13.5px; line-height: 1.6; color: #4A5260">Derivada do traço que passa sob o logotipo. Usada como divisor, base de título e rodapé. Sempre horizontal, com cantos arredondados, na ordem azul → prata → ouro.</div>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(28,60,125,0.2); display: grid">
+          <div style="background: #FDFBEF; padding: 30px; min-height: 180px; display: grid; place-items: center">
+            <img src="assets/selo-75.png" alt="Selo 75" style="width: 100%; max-width: 170px; height: auto" />
+          </div>
+          <div style="border-top: 1px solid rgba(28,60,125,0.2); padding: 18px; display: grid; gap: 8px">
+            <div style="font-size: 16px; font-weight: 600; color: #1A1D22">O selo 75</div>
+            <div style="font-size: 13.5px; line-height: 1.6; color: #4A5260">Aparece isolado somente em brindes, adesivos e vinhetas — peças onde o logotipo institucional já está presente em outro lugar. Em material impresso pequeno, use prata chapado.</div>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(28,60,125,0.2); display: grid">
+          <div style="background: #1C3C7D; padding: 30px; min-height: 180px; display: grid; align-content: center; gap: 0">
+            <div style="height: 1px; background: rgba(253,251,239,0.34)"></div>
+            <div style="height: 26px"></div>
+            <div style="height: 1px; background: rgba(253,251,239,0.34)"></div>
+            <div style="height: 26px"></div>
+            <div style="height: 1px; background: rgba(253,251,239,0.34)"></div>
+            <div style="height: 26px"></div>
+            <div style="height: 1px; background: rgba(253,251,239,0.34)"></div>
+          </div>
+          <div style="border-top: 1px solid rgba(28,60,125,0.2); padding: 18px; display: grid; gap: 8px">
+            <div style="font-size: 16px; font-weight: 600; color: #1A1D22">Linhas de rota</div>
+            <div style="font-size: 13.5px; line-height: 1.6; color: #4A5260">Textura discreta para fundos azuis: filetes horizontais paralelos, espaçamento igual, 1 px em digital e 0,25 pt em impresso. Nunca sob texto pequeno.</div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 28px; border: 1px solid rgba(28,60,125,0.2); padding: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px">
+        <div>
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; margin-bottom: 8px">Grid</div>
+          <div style="font-size: 14px; line-height: 1.65; color: #3B4350">12 colunas em digital, 6 em impresso. Margem mínima igual à altura do “75”. Tudo alinhado à esquerda.</div>
+        </div>
+        <div>
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; margin-bottom: 8px">Escala de espaço</div>
+          <div style="font-size: 14px; line-height: 1.65; color: #3B4350">4 · 8 · 12 · 16 · 24 · 32 · 48 · 64 · 96. Sem valores fora da escala.</div>
+        </div>
+        <div>
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; margin-bottom: 8px">Cantos e traços</div>
+          <div style="font-size: 14px; line-height: 1.65; color: #3B4350">Caixas com canto reto. Arredondado só nas faixas. Filete padrão 1 px azul a 18% de opacidade.</div>
+        </div>
+        <div>
+          <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; margin-bottom: 8px">Fotografia</div>
+          <div style="font-size: 14px; line-height: 1.65; color: #3B4350">Arquivo histórico em preto e branco; operação atual em cor natural, sem filtro. Pessoas em primeiro plano.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aplicacoes" style="padding: 64px 0; border-top: 1px solid rgba(28,60,125,0.16)">
+      <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 36px">
+        <span style="font-family: 'Instrument Serif', serif; font-size: 28px; color: #B4923F">06</span>
+        <h2 style="margin: 0; font-size: clamp(26px, 3.4vw, 38px); font-weight: 600; letter-spacing: -0.01em; color: #1C3C7D">Aplicações</h2>
+      </div>
+      <p style="margin: 0 0 36px; font-size: 15.5px; line-height: 1.65; color: #4A5260; max-width: 62ch">Referências de layout para as onze peças da festa. Data, local e horário aparecem como <strong style="color: #1A1D22">[definir]</strong> até você enviar os dados do evento.</p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px">
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="background: #1C3C7D; aspect-ratio: 4 / 5; min-width: 0; overflow: hidden; padding: 34px; display: grid; align-content: space-between; border: 1px solid rgba(28,60,125,0.2)">
+            <div style="display: grid; gap: 4px">
+              <div style="font-size: 10.5px; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(253,251,239,0.7); font-weight: 600">Grupo Cesari</div>
+              <div style="height: 3px; width: 46px; background: #B4923F; border-radius: 999px; margin-top: 8px"></div>
+            </div>
+            <div style="display: grid; gap: 12px">
+              <div style="font-family: 'Instrument Serif', serif; font-size: clamp(34px, 5vw, 46px); line-height: 1; color: #FDFBEF">Setenta e cinco<br />anos</div>
+              <div style="font-size: 13.5px; line-height: 1.6; color: rgba(253,251,239,0.82)">Convidamos você para a celebração dos 75 anos do Grupo Cesari.</div>
+            </div>
+            <div style="display: grid; gap: 6px; font-size: 12.5px; color: rgba(253,251,239,0.9); letter-spacing: 0.04em">
+              <div>[data] · [horário]</div>
+              <div>[local]</div>
+              <div style="color: rgba(253,251,239,0.75)">Traje [definir] · Confirmação até [data]</div>
+            </div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">Convite digital</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">1080 × 1350 px · azul profundo com filete ouro · marca no verso do card ou no rodapé do e-mail · texto sempre alinhado à esquerda.</div>
+          </div>
+        </div>
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="background: #FDFBEF; aspect-ratio: 4 / 5; min-width: 0; overflow: hidden; padding: 30px; display: grid; align-content: space-between; border: 1px solid rgba(28,60,125,0.2); outline: 1px solid #B4923F; outline-offset: -14px">
+            <div style="display: grid; place-items: center; padding-top: 18px">
+              <img src="assets/marca-75.png" alt="" style="width: 100%; max-width: 210px; height: auto" />
+            </div>
+            <div style="display: grid; gap: 10px; text-align: center; justify-items: center">
+              <div style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 20px; color: #1C3C7D">História, valores e legado.</div>
+              <div style="height: 1px; width: 60px; background: #B4923F"></div>
+              <div style="font-size: 12.5px; line-height: 1.7; color: #3B4350">[data] · [horário]<br />[local]</div>
+            </div>
+            <div style="font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #59616E; text-align: center; font-weight: 600">1951 — 2026</div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">Convite impresso</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">148 × 185 mm · papel creme fosco 300 g · hot stamping prata no selo, ouro no filete · margem mínima 14 mm.</div>
+          </div>
+        </div>
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="background: #112A57; aspect-ratio: 16 / 9; min-width: 0; overflow: hidden; padding: 26px; display: grid; place-items: center; border: 1px solid rgba(28,60,125,0.2); position: relative; overflow: hidden">
+            <div style="position: absolute; inset: 0; display: grid; align-content: center; gap: 30px; padding: 0 0">
+              <div style="height: 1px; background: rgba(253,251,239,0.16)"></div>
+              <div style="height: 1px; background: rgba(253,251,239,0.16)"></div>
+              <div style="height: 1px; background: rgba(253,251,239,0.16)"></div>
+              <div style="height: 1px; background: rgba(253,251,239,0.16)"></div>
+            </div>
+            <div style="position: relative; background: #FDFBEF; padding: 20px 24px; display: grid; place-items: center; max-width: 62%">
+              <img src="assets/marca-75-tagline.png" alt="" style="width: 100%; height: auto" />
+            </div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">Backdrop / painel de palco</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">6 × 3 m · azul profundo com linhas de rota · cartela creme centralizada ocupando 55–65% da largura · nada nos 40 cm inferiores (altura das pessoas).</div>
+          </div>
+        </div>
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="background: #FDFBEF; aspect-ratio: 16 / 9; min-width: 0; overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; border: 1px solid rgba(28,60,125,0.2)">
+            <div style="padding: 22px; display: grid; align-content: space-between; border-right: 1px solid rgba(28,60,125,0.14)">
+              <div style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600">Recepção</div>
+              <div style="display: flex; align-items: baseline; gap: 10px">
+                <div style="font-family: 'Instrument Serif', serif; font-size: 40px; color: #1C3C7D; line-height: 1">→</div>
+                <div style="font-size: 20px; font-weight: 600; color: #1A1D22">Salão</div>
+              </div>
+            </div>
+            <div style="background: #1C3C7D; padding: 22px; display: grid; align-content: space-between">
+              <div style="font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(253,251,239,0.7); font-weight: 600">Exposição</div>
+              <div style="font-size: 20px; font-weight: 600; color: #FDFBEF; line-height: 1.2">Linha do<br />tempo</div>
+            </div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">Sinalização e placas</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">Etiqueta em cima, nome do ambiente embaixo, seta em Instrument Serif. Texto nunca abaixo de 60 mm de altura em placa de piso. Alternar creme e azul entre placas vizinhas.</div>
+          </div>
+        </div>
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="background: #F2ECD8; aspect-ratio: 4 / 5; min-width: 0; overflow: hidden; padding: 22px; display: grid; place-items: center; border: 1px solid rgba(28,60,125,0.2)">
+            <div style="background: #FDFBEF; width: 100%; max-width: 240px; border: 1px solid rgba(28,60,125,0.2); display: grid">
+              <div style="background: #1C3C7D; padding: 14px; display: flex; align-items: baseline; justify-content: center; gap: 8px">
+                <div style="font-family: 'Instrument Serif', serif; font-size: 30px; line-height: 1; color: #CFCFD0">75</div>
+                <div style="font-size: 9px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(253,251,239,0.72); font-weight: 600">anos</div>
+              </div>
+              <div style="padding: 18px 16px; display: grid; gap: 6px">
+                <div style="font-size: 19px; font-weight: 600; color: #1A1D22; line-height: 1.2">Nome do<br />convidado</div>
+                <div style="font-size: 12px; color: #4A5260">Cargo · Empresa</div>
+                <div style="height: 3px; width: 34px; background: #B4923F; border-radius: 999px; margin-top: 6px"></div>
+              </div>
+              <div style="border-top: 1px solid rgba(28,60,125,0.14); padding: 10px 16px; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600">Colaborador</div>
+            </div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">Credencial</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">100 × 140 mm · nome em 19 pt mínimo, legível a dois metros · tarja inferior identifica o público (colaborador, convidado, imprensa, equipe).</div>
+          </div>
+        </div>
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="aspect-ratio: 4 / 5; min-width: 0; overflow: hidden; display: grid; grid-template-rows: 1fr 1fr; gap: 12px">
+            <div style="background: #1C3C7D; display: flex; align-items: baseline; justify-content: center; gap: 10px; border: 1px solid rgba(28,60,125,0.2)">
+              <div style="font-family: 'Instrument Serif', serif; font-size: clamp(38px, 6vw, 54px); line-height: 1; color: #CFCFD0">75</div>
+              <div style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(253,251,239,0.72); font-weight: 600">anos</div>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px">
+              <div style="background: #FDFBEF; border: 1px solid rgba(28,60,125,0.2); display: grid; place-items: center; padding: 14px">
+                <img src="assets/marca-75.png" alt="" style="width: 100%; height: auto" />
+              </div>
+              <div style="background: #F2ECD8; border: 1px solid rgba(28,60,125,0.2); display: grid; place-items: center">
+                <div style="font-family: 'Instrument Serif', serif; font-size: 34px; color: #1C3C7D; line-height: 1">75</div>
+              </div>
+            </div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">Brindes</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">Camiseta: selo prata bordado no peito esquerdo, 60 mm. Caneca: marca completa de um lado, “75” cerimonial do outro. Boné: só o selo, frontal. Uma cor de estampa por peça.</div>
+          </div>
+        </div>
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="background: #FDFBEF; aspect-ratio: 16 / 9; min-width: 0; overflow: hidden; border: 1px solid rgba(28,60,125,0.2); display: grid; grid-template-rows: auto 1fr auto">
+            <div style="padding: 10px 16px; border-bottom: 1px solid rgba(28,60,125,0.14); display: flex; justify-content: space-between; align-items: center; gap: 12px">
+              <div style="font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: #59616E; font-weight: 600">Grupo Cesari · 75 anos</div>
+              <div style="font-family: 'Instrument Serif', serif; font-size: 14px; color: #B4923F">75</div>
+            </div>
+            <div style="padding: 12px 16px; display: grid; align-content: center; gap: 7px; min-width: 0">
+              <div style="font-size: clamp(15px, 2vw, 22px); font-weight: 600; color: #1C3C7D; line-height: 1.15">Título da seção<br />em duas linhas</div>
+              <div style="font-size: 11px; line-height: 1.5; color: #4A5260; max-width: 40ch">Um parágrafo de apoio, no máximo três linhas.</div>
+            </div>
+            <div style="padding: 8px 16px; border-top: 1px solid rgba(28,60,125,0.14); display: flex; justify-content: space-between; font-size: 9.5px; color: #59616E">
+              <span>História, valores e legado.</span><span>00</span>
+            </div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">Apresentação institucional</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">1920 × 1080 px · cabeçalho e rodapé fixos · um assunto por slide · texto nunca abaixo de 24 px · abertura e encerramento em azul cheio.</div>
+          </div>
+        </div>
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="background: #F2ECD8; aspect-ratio: 4 / 5; min-width: 0; overflow: hidden; padding: 20px; display: grid; place-items: start center; border: 1px solid rgba(28,60,125,0.2)">
+            <div style="background: #FDFBEF; width: 100%; border: 1px solid rgba(28,60,125,0.14); display: grid">
+              <div style="background: #1C3C7D; padding: 14px 16px; display: grid; gap: 6px">
+                <div style="font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(253,251,239,0.7); font-weight: 600">Comunicado interno</div>
+                <div style="font-family: 'Instrument Serif', serif; font-size: 21px; color: #FDFBEF; line-height: 1.1">75 anos de Cesari</div>
+              </div>
+              <div style="padding: 16px; display: grid; gap: 12px">
+                <div style="font-size: 11.5px; line-height: 1.6; color: #3B4350">Time,<br /><br />Em [data] o Grupo Cesari completa 75 anos.</div>
+                <div style="background: #1C3C7D; color: #FDFBEF; padding: 9px 14px; font-size: 11px; font-weight: 600; justify-self: start; letter-spacing: 0.04em">Confirmar presença</div>
+              </div>
+            </div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">E-mail e comunicado</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">600 px de largura útil · cabeçalho azul, corpo creme · um único botão retangular · assunto no formato “75 anos Cesari · [assunto]”.</div>
+          </div>
+        </div>
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="background: #112A57; aspect-ratio: 16 / 9; min-width: 0; overflow: hidden; display: grid; place-items: center; border: 1px solid rgba(28,60,125,0.2); position: relative; overflow: hidden">
+            <div style="position: absolute; left: 0; right: 0; bottom: 26%; height: 6px; background: linear-gradient(90deg, rgba(253,251,239,0) 0%, #FDFBEF 55%, rgba(253,251,239,0.2) 100%)"></div>
+            <div style="position: relative; display: grid; gap: 10px; justify-items: center">
+              <div style="font-family: 'Instrument Serif', serif; font-size: clamp(48px, 8vw, 72px); color: #FDFBEF; line-height: 1">75</div>
+              <div style="font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(253,251,239,0.76); font-weight: 600">anos</div>
+            </div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">Vídeo e vinheta</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">Abertura de 4 s: faixa creme atravessa a tela da esquerda para a direita na velocidade do galgo e revela o “75”. Corte seco, sem zoom. Assinatura final de 2 s com a marca sobre creme.</div>
+          </div>
+        </div>
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="background: #FDFBEF; aspect-ratio: 3 / 4; min-width: 0; overflow: hidden; border: 1px solid rgba(28,60,125,0.2); display: grid; grid-template-rows: 1fr auto; overflow: hidden">
+            <div style="padding: 26px; display: grid; align-content: start; gap: 14px">
+              <div style="font-size: 10.5px; letter-spacing: 0.2em; text-transform: uppercase; color: #59616E; font-weight: 600">Mural interno</div>
+              <div style="font-family: 'Instrument Serif', serif; font-size: clamp(30px, 4.6vw, 44px); color: #1C3C7D; line-height: 0.98">Quem<br />construiu<br />esses 75<br />anos</div>
+            </div>
+            <div style="background: #1C3C7D; padding: 16px 26px; display: flex; justify-content: space-between; align-items: center; gap: 12px">
+              <div style="font-size: 11.5px; color: rgba(253,251,239,0.86); line-height: 1.5">Homenagem aos colaboradores<br />com mais tempo de casa</div>
+              <div style="font-family: 'Instrument Serif', serif; font-size: 26px; color: #FDFBEF">75</div>
+            </div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">Cartaz e mural</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">A3 e A2 · título cerimonial ocupando metade da altura · tarja azul no rodapé · espaço reservado para fotos reais do arquivo.</div>
+          </div>
+        </div>
+
+        <div style="display: grid; gap: 14px; min-width: 0">
+          <div style="background: #F2ECD8; aspect-ratio: 16 / 9; min-width: 0; overflow: hidden; display: grid; place-items: center; padding: 22px; border: 1px solid rgba(28,60,125,0.2)">
+            <div style="width: 100%; background: #FDFBEF; border: 1px solid rgba(28,60,125,0.16); display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 14px; padding: 16px 18px">
+              <img src="assets/marca-75.png" alt="" style="width: 100%; max-width: 180px; height: auto" />
+              <div style="font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600; text-align: right; line-height: 1.6">1951<br />2026</div>
+            </div>
+          </div>
+          <div style="display: grid; gap: 5px">
+            <div style="font-size: 15.5px; font-weight: 600; color: #1A1D22">Adesivo de frota e empilhadeira</div>
+            <div style="font-size: 13px; line-height: 1.6; color: #4A5260">Vinil recortado, fundo creme opaco, 400 mm de largura na cabine e 200 mm na empilhadeira. Nunca sobre grafismo da frota; sempre em área lisa, alinhado à marca institucional existente.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="checklist" style="padding: 64px 0; border-top: 1px solid rgba(28,60,125,0.16)">
+      <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 36px">
+        <span style="font-family: 'Instrument Serif', serif; font-size: 28px; color: #B4923F">07</span>
+        <h2 style="margin: 0; font-size: clamp(26px, 3.4vw, 38px); font-weight: 600; letter-spacing: -0.01em; color: #1C3C7D">Checklist antes de aprovar</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0; border: 1px solid rgba(28,60,125,0.2)">
+        <div style="padding: 22px 24px; border-bottom: 1px solid rgba(28,60,125,0.14); font-size: 14.5px; line-height: 1.6; color: #3B4350">A marca está em vetor e com a área de respiro completa.</div>
+        <div style="padding: 22px 24px; border-bottom: 1px solid rgba(28,60,125,0.14); font-size: 14.5px; line-height: 1.6; color: #3B4350">O fundo é creme ou azul — nenhum tom intermediário.</div>
+        <div style="padding: 22px 24px; border-bottom: 1px solid rgba(28,60,125,0.14); font-size: 14.5px; line-height: 1.6; color: #3B4350">Há um único acento nobre na peça: prata ou ouro, não os dois.</div>
+        <div style="padding: 22px 24px; border-bottom: 1px solid rgba(28,60,125,0.14); font-size: 14.5px; line-height: 1.6; color: #3B4350">O serif cerimonial aparece uma vez só, em tamanho grande.</div>
+        <div style="padding: 22px 24px; border-bottom: 1px solid rgba(28,60,125,0.14); font-size: 14.5px; line-height: 1.6; color: #3B4350">Data, local e horário conferidos com o comitê da festa.</div>
+        <div style="padding: 22px 24px; border-bottom: 1px solid rgba(28,60,125,0.14); font-size: 14.5px; line-height: 1.6; color: #3B4350">A assinatura “História, valores e legado.” está escrita exatamente assim.</div>
+        <div style="padding: 22px 24px; font-size: 14.5px; line-height: 1.6; color: #3B4350">Nenhum ornamento de festa: confete, balão, brilho ou emoji.</div>
+        <div style="padding: 22px 24px; font-size: 14.5px; line-height: 1.6; color: #3B4350">Texto legível à distância real de leitura da peça.</div>
+      </div>
+      <div style="margin-top: 40px; background: #F2ECD8; padding: clamp(24px, 4vw, 40px); display: grid; gap: 14px; max-width: 760px">
+        <div style="font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #59616E; font-weight: 600">O que ainda falta</div>
+        <div style="font-size: 15.5px; line-height: 1.7; color: #3B4350">Para fechar o sistema eu preciso de: logo em vetor, fontes oficiais da marca institucional (se houver manual), dados do evento — data, local, horário, traje, público — e os marcos históricos com números. Com isso ajusto as especificações e monto as peças finais.</div>
+      </div>
+    </section>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;mostrarTokens&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Guia&quot;},&quot;mostrarUsosIncorretos&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Guia&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      mostrarTokens: this.props.mostrarTokens ?? true,
+      mostrarUsosIncorretos: this.props.mostrarUsosIncorretos ?? true
+    };
+  }
+}
+</script>
+</body>
+</html>
